@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses Offered</title>
+    <style>
+        /* Apply background image to the body */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-image: url(https://quntnex.com/wp-content/uploads/2024/05/banner-quntnex.png);
+            background-size: cover;
+            background-position: center;
+        }
+
+        /* Container for centered content */
+        .container {
+            background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            max-width: 400px;
+            text-align: center;
+        }
+
+        /* Heading styling */
+        h2 {
+            color: #333;
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+
+        /* List styling */
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            margin: 10px 0;
+            font-size: 18px;
+        }
+
+        /* Add star symbol before each item */
+        li::before {
+            content: "★";
+            color: rgb(17, 17, 16);
+            margin-right: 8px;
+            font-size: 20px;
+        }
+
+        /* Link styling */
+        a {
+            text-decoration: none;
+            color: #007bff;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Courses Offered</h2>
+        <ul>
+            <li><a href="java.html">Java Fullstack</a></li>
+            <li><a href="python.html">Python Fullstack</a></li>
+            <li><a href="automation.html">Automation Testing</a></li>
+        </ul>
+    </div>
+</body>
+</html>
